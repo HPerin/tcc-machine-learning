@@ -1,0 +1,78 @@
+----------------- Decision Tree -----------------------
+--------------iteration  1---------------
+roc_auc 0.265166
+f1 0.021277
+acc 0.425000
+best_variables ['anos', 'estciv', 'chefe', 'pesmora', 'cor', 'relig1', 'relig2', 'fil', 'leresin', 'serie', 'grau', 'empreg', 'ren1', 'bolsa', 'melfaz', 'fumo', 'freqbeb', 'numdos', 'seisdos', 'lerjor', 'lerev', 'lerliv', 'ouvrad', 'veteve', 'asjorn', 'interne', 'infsaud', 'pqnaorie', 'anggord', 'angpres', 'angobes', 'angfumc', 'angdiab', 'angsed', 'angstres', 'angnao', 'angout', 'pulfum', 'pulpol', 'pulnao', 'pulout', 'fumbr', 'polubr', 'bronao', 'bronout', 'diabobe', 'diabacuc', 'diabsede', 'diabdiet', 'diabtrat', 'diabnao', 'colhpv', 'colfum', 'colpar', 'coldst', 'colonao', 'colevpap', 'colevnao', 'colevout', 'mamog', 'mamauto', 'mamexme', 'mamnao', 'aidboc', 'aidsrela', 'aidsbeb', 'aidserin', 'aidsang', 'aidevpre', 'aidevpar', 'aidevnao', 'supsoc', 'supamig', 'exfis', 'tempres', 'temcol', 'temuric', 'temtrig', 'comdoce', 'comsal', 'peso', 'altur', 'percepan', 'papex', 'papmes', 'mamofez', 'mamaex', 'mamquex', 'mamonde', 'verpa', 'vercole', 'dentvid', 'dentano', 'consano', 'anultcon', 'locons', 'medbom', 'acolhe', 'facil', 'tempo', 'medgrat', 'exagrat', 'pertcas', 'enfbom', 'outpref', 'conven', 'convtemp', 'medef', 'mednome', 'medtemp', 'baircons', 'baitemp', 'inter', 'internu', 'sdoca', 'sfaap', 'ssono', 'sassu', 'strema', 'smadig', 'sidemb', 'stris', 'schor', 'spraz', 'sdeci', 'strab', 'sutil', 'sinte', 'svalo', 'ssui', 'scan', 'sesto', 'scanfa', 'alcon', 'alleite', 'altemp', 'alinterv', 'alfrac', 'aldoen', 'almamad', 'alamat', 'alapat', 'alesco', 'alfam', 'almed', 'alenf', 'almeio', 'alnada', 'alout', 'almam', 'fil318', 'astosse', 'asmed', 'asbomb1', 'asbomb2', 'asbomb3', 'coberpsf']
+best_parameters {'criterion': 'entropy', 'splitter': 'best'}
+------------------------------------------
+--------------iteration  2---------------
+roc_auc 0.487179
+f1 0.000000
+acc 0.950000
+best_variables ['ouvrad', 'veteve', 'asjorn', 'interne', 'infsaud', 'pqnaorie', 'anggord', 'angpres', 'angobes', 'angfumc', 'angdiab', 'angsed', 'angstres', 'angnao', 'angout', 'pulfum', 'pulpol', 'pulnao', 'pulout', 'fumbr', 'polubr', 'bronao', 'bronout', 'diabobe', 'diabacuc', 'diabsede', 'diabdiet', 'diabtrat', 'diabnao', 'colhpv', 'colfum', 'colpar', 'coldst', 'colonao', 'colevpap', 'colevnao', 'mamog', 'mamauto', 'mamnao', 'aidboc', 'aidsbeb', 'aidserin', 'aidsang', 'aidevpre', 'aidevpar', 'aidevnao', 'supamig', 'exfis', 'tempres', 'temcol', 'temuric', 'temtrig', 'percepan', 'papex', 'papmes', 'mamaex', 'vercole', 'dentvid', 'dentano', 'consano', 'anultcon', 'locons', 'medbom', 'acolhe', 'facil', 'tempo', 'medgrat', 'exagrat', 'pertcas', 'enfbom', 'outpref', 'conven', 'convtemp', 'medef', 'mednome', 'medtemp', 'baircons', 'baitemp', 'inter', 'internu', 'sdoca', 'sfaap', 'ssono', 'sassu', 'strema', 'smadig', 'sidemb', 'stris', 'schor', 'spraz', 'sdeci', 'strab', 'sutil', 'sinte', 'svalo', 'ssui', 'scan', 'sesto', 'scanfa', 'alcon', 'alleite', 'altemp', 'alinterv', 'aldoen', 'alamat', 'alapat', 'alesco', 'alfam', 'almed', 'alenf', 'almeio', 'alnada', 'alout']
+best_parameters {'criterion': 'entropy', 'splitter': 'random'}
+------------------------------------------
+--------------iteration  3---------------
+roc_auc 0.552928
+f1 0.173913
+acc 0.881250
+best_variables ['anos', 'estciv', 'chefe', 'pesmora', 'cor', 'relig1', 'relig2', 'fil', 'leresin', 'serie', 'grau', 'empreg', 'ren1', 'bolsa', 'melfaz', 'fumo', 'freqbeb', 'numdos', 'seisdos', 'lerjor', 'lerev', 'lerliv', 'ouvrad', 'veteve', 'asjorn', 'interne', 'infsaud', 'pqnaorie', 'anggord', 'angpres', 'angobes', 'angfumc', 'angdiab', 'angsed', 'angnao', 'angout', 'pulpol', 'pulout', 'diabtrat', 'colevnao', 'exfis', 'tempres', 'temcol', 'altur', 'percepan', 'papex', 'papmes', 'mamofez', 'mamaex', 'mamquex', 'mamonde', 'verpa', 'vercole', 'dentvid', 'dentano', 'consano', 'anultcon', 'locons', 'medbom', 'acolhe', 'facil', 'tempo', 'exagrat', 'pertcas', 'enfbom', 'outpref', 'conven', 'convtemp', 'medef', 'mednome', 'medtemp', 'baitemp', 'sdoca', 'sfaap', 'ssono', 'sdeci', 'sutil', 'sinte', 'altemp', 'alout', 'almam']
+best_parameters {'criterion': 'entropy', 'splitter': 'best'}
+------------------------------------------
+--------------iteration  4---------------
+roc_auc 0.536855
+f1 0.137931
+acc 0.842767
+best_variables ['anos', 'estciv', 'chefe', 'pesmora', 'cor', 'relig1', 'relig2', 'fil', 'leresin', 'serie', 'grau', 'empreg', 'ren1', 'bolsa', 'melfaz', 'fumo', 'freqbeb', 'numdos', 'seisdos', 'lerev', 'ouvrad', 'pqnaorie', 'angpres', 'angnao', 'pulout', 'diabobe', 'diabtrat', 'coldst', 'colevnao', 'colevout', 'mamog', 'mamauto', 'mamnao', 'aidsrela', 'aidsbeb', 'supsoc', 'supamig', 'tempres', 'temcol', 'temuric', 'temtrig', 'comsal', 'peso', 'altur', 'percepan', 'papex', 'papmes', 'mamofez', 'mamaex', 'mamonde', 'vercole', 'dentano', 'consano', 'anultcon', 'acolhe', 'facil', 'tempo', 'pertcas', 'convtemp', 'medtemp', 'baitemp', 'inter', 'sdoca', 'ssui', 'alfrac', 'aldoen', 'almamad', 'alamat', 'alapat', 'almed', 'alenf']
+best_parameters {'criterion': 'entropy', 'splitter': 'best'}
+------------------------------------------
+--------------iteration  5---------------
+roc_auc 0.581111
+f1 0.200000
+acc 0.899371
+best_variables ['anos', 'estciv', 'chefe', 'pesmora', 'cor', 'relig1', 'relig2', 'fil', 'leresin', 'serie', 'grau', 'ren1', 'bolsa', 'melfaz', 'fumo', 'freqbeb', 'numdos', 'lerjor', 'lerev', 'lerliv', 'ouvrad', 'veteve', 'angnao', 'angout', 'pulpol', 'diabtrat', 'coldst', 'colevnao', 'supamig', 'temuric', 'comdoce', 'peso', 'altur', 'percepan', 'mamaex', 'vercole', 'anultcon', 'locons', 'medbom', 'facil', 'convtemp', 'medef', 'medtemp', 'baitemp', 'stris', 'sdeci', 'sesto', 'alleite', 'altemp', 'alamat', 'alnada', 'almam', 'asbomb1', 'asbomb2']
+best_parameters {'criterion': 'gini', 'splitter': 'best'}
+------------------------------------------
+--------------iteration  6---------------
+roc_auc 0.764286
+f1 0.315789
+acc 0.918239
+best_variables ['anos', 'estciv', 'chefe', 'pesmora', 'cor', 'relig1', 'relig2', 'fil', 'leresin', 'serie', 'grau', 'empreg', 'ren1', 'bolsa', 'melfaz', 'fumo', 'freqbeb', 'numdos', 'seisdos', 'lerjor', 'lerev', 'lerliv', 'ouvrad', 'veteve', 'asjorn', 'interne', 'infsaud', 'pqnaorie', 'angpres', 'angobes', 'angfumc', 'angsed', 'angstres', 'angnao', 'diabsede', 'diabtrat', 'colevnao', 'exfis', 'tempres', 'temcol', 'temuric', 'comdoce', 'peso', 'altur', 'percepan', 'papmes', 'mamofez', 'mamaex', 'mamquex', 'mamonde', 'verpa', 'vercole', 'dentvid', 'dentano', 'consano', 'anultcon', 'locons', 'medbom', 'acolhe', 'facil', 'tempo', 'medgrat', 'exagrat', 'pertcas', 'conven', 'convtemp', 'medef', 'mednome', 'medtemp', 'baitemp', 'sdoca', 'sassu', 'strema', 'spraz', 'sdeci', 'strab', 'sutil', 'sinte', 'svalo', 'scanfa', 'alfrac', 'almamad', 'alapat', 'alfam', 'almam', 'asbomb1', 'asbomb2']
+best_parameters {'criterion': 'entropy', 'splitter': 'best'}
+------------------------------------------
+--------------iteration  7---------------
+roc_auc 0.536010
+f1 0.117647
+acc 0.905660
+best_variables ['angstres', 'angnao', 'pulnao', 'pulout', 'fumbr', 'bronao', 'diabobe', 'diabacuc', 'diabdiet', 'diabtrat', 'coldst', 'mamnao', 'aidserin', 'aidsang', 'supamig', 'exfis', 'tempres', 'temcol', 'temuric', 'temtrig', 'percepan', 'locons', 'medbom', 'acolhe', 'facil', 'convtemp', 'medtemp', 'internu', 'sdoca', 'strema', 'stris', 'sutil', 'sesto', 'scanfa', 'altemp', 'alinterv']
+best_parameters {'criterion': 'entropy', 'splitter': 'random'}
+------------------------------------------
+--------------iteration  8---------------
+roc_auc 0.608444
+f1 0.266667
+acc 0.930818
+best_variables ['anos', 'pesmora', 'grau', 'empreg', 'ren1', 'lerjor', 'lerev', 'anggord', 'angdiab', 'angnao', 'diabobe', 'diabsede', 'diabtrat', 'colevnao', 'aidserin', 'aidevpar', 'exfis', 'tempres', 'temcol', 'temuric', 'temtrig', 'obes', 'altur', 'percepan', 'mamaex', 'mamonde', 'locons', 'tempo', 'sutil', 'alcon', 'aldoen', 'almamad']
+best_parameters {'criterion': 'entropy', 'splitter': 'best'}
+------------------------------------------
+--------------iteration  9---------------
+roc_auc 0.574017
+f1 0.222222
+acc 0.911950
+best_variables ['anos', 'estciv', 'chefe', 'pesmora', 'cor', 'relig1', 'relig2', 'fil', 'leresin', 'serie', 'grau', 'empreg', 'ren1', 'bolsa', 'melfaz', 'fumo', 'freqbeb', 'seisdos', 'lerjor', 'lerliv', 'veteve', 'asjorn', 'interne', 'infsaud', 'pqnaorie', 'anggord', 'angdiab', 'angout', 'pulnao', 'pulout', 'fumbr', 'diabtrat', 'colevnao', 'aidevpre', 'supamig', 'temuric', 'temtrig', 'peso', 'altur', 'percepan', 'mamofez', 'mamaex', 'mamquex', 'vercole', 'dentano', 'consano', 'anultcon', 'locons', 'medbom', 'acolhe', 'facil', 'tempo', 'pertcas', 'convtemp', 'medtemp', 'baircons', 'sfaap', 'ssono', 'stris', 'spraz', 'sutil', 'alcon', 'almeio', 'alnada']
+best_parameters {'criterion': 'gini', 'splitter': 'best'}
+------------------------------------------
+--------------iteration 10---------------
+roc_auc 0.656863
+f1 0.363636
+acc 0.955975
+best_variables ['anos', 'chefe', 'pesmora', 'relig1', 'leresin', 'serie', 'grau', 'empreg', 'ren1', 'fumo', 'pqnaorie', 'angdiab', 'pulpol', 'diabtrat', 'colevnao', 'aidsrela', 'exfis', 'tempres', 'temtrig', 'peso', 'altur', 'percepan', 'papmes', 'mamaex', 'verpa', 'vercole', 'dentano', 'acolhe', 'convtemp', 'medtemp', 'alcon', 'alamat', 'alenf', 'alout', 'almam']
+best_parameters {'criterion': 'gini', 'splitter': 'best'}
+------------------------------------------
+average auc roc: 0.5562859204367427
+average f1: 0.18190824587386928
+average acc: 0.8621029874213837
+variable use count: [('diabtrat', 10), ('percepan', 10), ('colevnao', 9), ('mamaex', 9), ('convtemp', 9), ('medtemp', 9), ('anos', 8), ('pesmora', 8), ('grau', 8), ('ren1', 8), ('angnao', 8), ('tempres', 8), ('temuric', 8), ('altur', 8), ('vercole', 8), ('locons', 8), ('acolhe', 8), ('facil', 8), ('chefe', 7), ('relig1', 7), ('leresin', 7), ('serie', 7), ('empreg', 7), ('fumo', 7), ('pqnaorie', 7), ('exfis', 7), ('temcol', 7), ('temtrig', 7), ('dentano', 7), ('anultcon', 7), ('medbom', 7), ('tempo', 7), ('sutil', 7), ('estciv', 6), ('cor', 6), ('relig2', 6), ('fil', 6), ('bolsa', 6), ('melfaz', 6), ('freqbeb', 6), ('lerjor', 6), ('lerev', 6), ('ouvrad', 6), ('veteve', 6), ('angdiab', 6), ('pulout', 6), ('supamig', 6), ('peso', 6), ('papmes', 6), ('consano', 6), ('pertcas', 6), ('baitemp', 6), ('sdoca', 6), ('numdos', 5), ('seisdos', 5), ('lerliv', 5), ('asjorn', 5), ('interne', 5), ('infsaud', 5), ('anggord', 5), ('angpres', 5), ('angout', 5), ('pulpol', 5), ('diabobe', 5), ('coldst', 5), ('mamofez', 5), ('mamonde', 5), ('medef', 5), ('stris', 5), ('sdeci', 5), ('alcon', 5), ('altemp', 5), ('alamat', 5), ('almam', 5), ('angobes', 4), ('angfumc', 4), ('angsed', 4), ('angstres', 4), ('pulnao', 4), ('fumbr', 4), ('diabsede', 4), ('mamnao', 4), ('aidserin', 4), ('papex', 4), ('mamquex', 4), ('verpa', 4), ('dentvid', 4), ('exagrat', 4), ('conven', 4), ('mednome', 4), ('sfaap', 4), ('ssono', 4), ('strema', 4), ('spraz', 4), ('sinte', 4), ('sesto', 4), ('scanfa', 4), ('aldoen', 4), ('almamad', 4), ('alapat', 4), ('alenf', 4), ('alnada', 4), ('alout', 4), ('bronao', 3), ('diabacuc', 3), ('diabdiet', 3), ('mamog', 3), ('mamauto', 3), ('aidsrela', 3), ('aidsbeb', 3), ('aidsang', 3), ('aidevpre', 3), ('aidevpar', 3), ('comdoce', 3), ('medgrat', 3), ('enfbom', 3), ('outpref', 3), ('baircons', 3), ('inter', 3), ('internu', 3), ('sassu', 3), ('strab', 3), ('svalo', 3), ('ssui', 3), ('alleite', 3), ('alinterv', 3), ('alfrac', 3), ('alfam', 3), ('almed', 3), ('almeio', 3), ('asbomb1', 3), ('asbomb2', 3), ('pulfum', 2), ('polubr', 2), ('bronout', 2), ('diabnao', 2), ('colhpv', 2), ('colfum', 2), ('colpar', 2), ('colonao', 2), ('colevpap', 2), ('colevout', 2), ('aidboc', 2), ('aidevnao', 2), ('supsoc', 2), ('comsal', 2), ('smadig', 2), ('sidemb', 2), ('schor', 2), ('scan', 2), ('alesco', 2), ('mamexme', 1), ('fil318', 1), ('astosse', 1), ('asmed', 1), ('asbomb3', 1), ('coberpsf', 1), ('obes', 1)]
+parameter use count:
+criterion: [('entropy', 7), ('gini', 3)]
+splitter: [('best', 8), ('random', 2)]
